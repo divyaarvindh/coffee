@@ -309,7 +309,7 @@ footer {
 .headBox figure img {
   width: auto;
   height: 50px;
-  margin-left: 4rem;
+  margin-left: 4.3rem;
 }
 
 .navLinkBox ul li a {
@@ -321,9 +321,8 @@ footer {
   font-size: 2rem;
   /* margin: 0rem 0.6rem; */
   /* margin-right: 2rem; */
-  margin: 0.6rem;
+  margin: 0.7rem 0.7rem;
 }
-
 
 /* Navbar code */
 
@@ -545,23 +544,21 @@ input:focus {
     top: 4rem;
     right: 3rem;
   }
-
   .navLink  {
     /* display:flex; */
     flex-direction:column;
     display: none;
     align-items: end;
-    
   }
 
   #iconToggle:checked~.navLinkBox .navLink {
     display: flex;
   }
-  .navLink li a {
-    padding: 0.75rem 0rem;
+  .navLinkBox ul  li a {
+    padding: 1rem 0rem;
   }
 
-  #iconToggle:checked~.navLink {
+  #iconToggle:checked ~ .navLink {
     display: flex;
   }
 
@@ -582,7 +579,7 @@ input:focus {
   }
 
   .team {
-    padding: 0rem 10rem;
+    padding: 1rem 10rem;
   }
 
   .ourMenuBox {
@@ -594,7 +591,10 @@ input:focus {
     height: 700px;
   }
   .bookingBox{
-    padding:0rem 1rem;
+    padding:1rem 1.3rem 2rem 1.3rem;
+  }
+  input{
+    padding:1.2rem 5rem 1rem 1.2rem;
   }
 }
 
