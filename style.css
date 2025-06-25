@@ -312,6 +312,13 @@ footer {
   margin-left: 4.3rem;
 }
 
+.navLinkBlock{
+  /* background-color: #40E0D0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .navLinkBox ul li a {
   /* margin-right: auto; */
   font: Nunito, sans-serif;
@@ -538,6 +545,9 @@ input:focus {
     padding: 0rem 1rem;
   }
 
+  .navLinkBlock{
+    justify-content: end;
+  }
   .navLinkBlock .hamburgerIcon {
     display: block;
     position: absolute;
@@ -554,13 +564,13 @@ input:focus {
   #iconToggle:checked~.navLinkBox .navLink {
     display: flex;
   }
-  .navLinkBox ul  li a {
-    padding: 1rem 0rem;
+  .navLink li{
+    margin-bottom: 1rem;
   }
 
-  #iconToggle:checked ~ .navLink {
+  /* #iconToggle:checked ~ .navLink {
     display: flex;
-  }
+  } */
 
   h1 {
     font-size: 3rem;
@@ -579,7 +589,7 @@ input:focus {
   }
 
   .team {
-    padding: 1rem 10rem;
+    padding: 1rem 7.5rem;
   }
 
   .ourMenuBox {
