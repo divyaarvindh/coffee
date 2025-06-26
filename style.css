@@ -165,6 +165,9 @@ span {
   padding: 2rem 0rem;
   /* Breathing Space Between Components */
 }
+.componentspacing{
+  padding:2rem 0rem 0rem 0rem;
+}
 
 .screenSize {
   max-width: 1200px;
@@ -174,12 +177,12 @@ span {
 }
 
 .screensize2 {
-  max-width: 100rem;
+  max-width: 1000px;
   margin: auto;
 }
 
 .screenSize3 {
-  max-width: 120rem;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -275,27 +278,6 @@ footer {
 
 /* :::PARENT CONTAINER Code Ends here::: */
 
-.btn {
-  /* background-color:var(--primaryColor); */
-  /* color: var(--lightColor);
-  font-family: var(--ffPrimary);
-  font-size: var(--regularFont);
-  font-weight: 400;
-  line-height: 1; */
-  /* letter-spacing: 0.1rem; */
-
-  /* cursor: pointer;
-  border: none; */
-  /* border-radius: 0.5rem; */
-  /* padding: 1rem 3rem;
-  transition: background-color 0.3s ease; */
-}
-
-/* button:hover {
-  background-color: var(--darkColor);
-  color: var(--lightColor);
-  transition: background-color 0.2s ease;
-} */
 
 /* :::PARENT CONTAINER Code Ends here::: */
 
@@ -352,7 +334,7 @@ footer {
 .heroBox p {
   /* text-wrap: nowrap; */
   color: #212529;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   margin-bottom: 1rem;
 }
 
@@ -375,7 +357,7 @@ footer {
   color: #212529;
   font: "Nunito Sans", serif;
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 300;
   text-align: left;
 }
 
@@ -389,7 +371,6 @@ footer {
 .headingImage img {
   width: auto;
   height: 40px;
-
 }
 
 .varietiesCardHeader {
@@ -438,7 +419,6 @@ h3 {
 /* Contact code */
 .messagemeBox {
   width: 100%;
-  /* height: 700px; */
   aspect-ratio: 1/1
 }
 
@@ -456,8 +436,8 @@ input {
 }
 
 input:focus {
-  border: 1px solid #40E0D0;
-  outline: 3px solid #40E0D0
+  border: 1px solid #80bdff;
+  outline: 3px solid #80bdff
 }
 
 .bookingBox {
@@ -502,15 +482,18 @@ input:focus {
   font-weight: 400;
   font-size: 2rem;
   color: #212529;
-  font-family: 'nunito', sans-serif;
+  font-family: "Nunito sans", sans-serif;
+
   margin-top: 1rem;
 }
 
 .navLinkBlock #iconToggle {
+  display: none;
   cursor: pointer;
 }
 
 .navLinkBlock .hamburgerIcon {
+  display:none;
   color: #002239;
   font-size: 2rem;
   border: 1.5px solid #002239;
@@ -518,13 +501,6 @@ input:focus {
   border-radius: 0.25rem;
 }
 
-.navLinkBlock #iconToggle {
-  display: none;
-}
-
-.navLinkBlock .hamburgerIcon {
-  display:none;
-}
 
 /* Contact Icons code */
 /* :::FOOTER Code Ends here::: */
@@ -565,7 +541,7 @@ input:focus {
     display: flex;
   }
   .navLink li{
-    margin-bottom: 1rem;
+    margin-bottom: 1.3rem;
   }
 
   /* #iconToggle:checked ~ .navLink {
@@ -581,7 +557,7 @@ input:focus {
   }
 
   p {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 
   .gallery {
@@ -589,7 +565,7 @@ input:focus {
   }
 
   .team {
-    padding: 1rem 7.5rem;
+    padding: 2rem 8rem;
   }
 
   .ourMenuBox {
@@ -606,7 +582,11 @@ input:focus {
   input{
     padding:1.2rem 5rem 1rem 1.2rem;
   }
+  .contactIconBody{
+    margin-top: 5rem;
+  }
 }
+
 
 /* TABLET RESPONSIVE CODE  */
 @media (min-width: 577px) and (max-width: 768px) {}
